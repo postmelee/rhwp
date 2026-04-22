@@ -29,7 +29,7 @@
 		30C5544822856BDE8A410D24 /* FontFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFallback.swift; sourceTree = "<group>"; };
 		4FF54AB9AD6C2D71F75E6D4E /* rhwp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rhwp-Bridging-Header.h"; sourceTree = "<group>"; };
 		627A18542BBCCDA414803C7E /* PagedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedScrollView.swift; sourceTree = "<group>"; };
-		81865E251AD52D976773B18D /* AlHangeul.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AlHangeul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81865E251AD52D976773B18D /* 알한글.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "알한글.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		997135DD4569EB9F95A08783 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
 		9C7F329F4166423A625506DD /* DocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewModel.swift; sourceTree = "<group>"; };
 		A6C69CA5A7BB9EDAC1ED2BAB /* AlHangeulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlHangeulApp.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		B80BBC760C44B9077204BF0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81865E251AD52D976773B18D /* AlHangeul.app */,
+				81865E251AD52D976773B18D /* 알한글.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 			packageProductDependencies = (
 			);
 			productName = AlHangeul;
-			productReference = 81865E251AD52D976773B18D /* AlHangeul.app */;
+			productReference = 81865E251AD52D976773B18D /* 알한글.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,6 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					5D95FFCC81A27C7524AE135E = {
-						DevelopmentTeam = FSFG3AQ4KZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -229,7 +228,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FSFG3AQ4KZ;
+				DEVELOPMENT_TEAM = XH6JHKYXV8;
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -249,7 +248,7 @@
 					"-framework",
 					CoreFoundation,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.edwardkim.alhangeul;
+				PRODUCT_BUNDLE_IDENTIFIER = com.postmelee.alhangeul;
 				PRODUCT_NAME = "알한글";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/rhwp-Bridging-Header.h";
@@ -263,7 +262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FSFG3AQ4KZ;
+				DEVELOPMENT_TEAM = XH6JHKYXV8;
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -283,7 +282,7 @@
 					"-framework",
 					CoreFoundation,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.edwardkim.alhangeul;
+				PRODUCT_BUNDLE_IDENTIFIER = com.postmelee.alhangeul;
 				PRODUCT_NAME = "알한글";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/rhwp-Bridging-Header.h";

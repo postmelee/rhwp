@@ -68,7 +68,10 @@ private struct DocumentPageContainer: View {
         .id(page)
         .onAppear {
             store.setCurrentPage(page)
-            store.loadPage(page)
+            store.loadPages(around: page)
+        }
+        .task(id: page) {
+            store.loadPages(around: page)
         }
         .onDisappear {
             store.unloadPage(page)

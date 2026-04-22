@@ -11,6 +11,9 @@ final class DocumentViewerStore: ObservableObject {
     @Published var pageTrees: [Int: RenderNode] = [:]
     @Published var zoomScale: Double = 0.8
 
+    private let initialPreloadPageCount = 2
+    private let visiblePreloadRadius = 1
+
     let minimumZoomScale = 0.25
     let maximumZoomScale = 3.0
 
@@ -82,14 +85,37 @@ final class DocumentViewerStore: ObservableObject {
     }
 
     func loadPage(_ page: Int) {
-        guard pageTrees[page] == nil, let document else {
+        guard
+            page >= 0,
+            page < pageCount,
+            pageTrees[page] == nil,
+            let document
+        else {
             return
         }
         pageTrees[page] = document.renderPageTree(at: page)
     }
 
     func unloadPage(_ page: Int) {
+        guard page >= initialPreloadPageCount else {
+            return
+        }
+        guard abs(page - currentPage) > visiblePreloadRadius else {
+            return
+        }
         pageTrees.removeValue(forKey: page)
+    }
+
+    func loadPages(around page: Int) {
+        guard pageCount > 0 else {
+            return
+        }
+
+        let lowerBound = max(0, page - visiblePreloadRadius)
+        let upperBound = min(pageCount - 1, page + visiblePreloadRadius)
+        for page in lowerBound...upperBound {
+            loadPage(page)
+        }
     }
 
     func setCurrentPage(_ page: Int) {
@@ -120,6 +146,18 @@ final class DocumentViewerStore: ObservableObject {
         self.filename = filename
         currentPage = 0
         zoomScale = 0.8
+        preloadInitialPages()
+    }
+
+    private func preloadInitialPages() {
+        let preloadCount = min(initialPreloadPageCount, pageCount)
+        guard preloadCount > 0 else {
+            return
+        }
+
+        for page in 0..<preloadCount {
+            loadPage(page)
+        }
     }
 }
 

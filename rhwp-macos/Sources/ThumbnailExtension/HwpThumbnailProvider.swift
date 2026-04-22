@@ -39,11 +39,19 @@ final class HwpThumbnailProvider: QLThumbnailProvider {
     }
 
     private static func drawPageImage(_ image: CGImage, in context: CGContext, size: CGSize) {
-        let rect = drawingBounds(in: context, fallbackSize: size)
+        let bounds = drawingBounds(in: context, fallbackSize: size)
+        let imageSize = CGSize(width: image.width, height: image.height)
+        let rect = aspectFit(imageSize, within: bounds)
         context.saveGState()
+        context.setFillColor(CGColor(gray: 1, alpha: 0))
+        context.fill(bounds)
+        context.interpolationQuality = .high
         context.setFillColor(CGColor(gray: 1, alpha: 1))
         context.fill(rect)
         context.draw(image, in: rect)
+        context.setStrokeColor(CGColor(gray: 0.72, alpha: 1))
+        context.setLineWidth(max(1, min(rect.width, rect.height) * 0.008))
+        context.stroke(rect.insetBy(dx: 0.5, dy: 0.5))
         context.restoreGState()
     }
 
@@ -71,5 +79,21 @@ final class HwpThumbnailProvider: QLThumbnailProvider {
             return CGRect(origin: .zero, size: fallbackSize)
         }
         return clipBounds
+    }
+
+    private static func aspectFit(_ source: CGSize, within bounds: CGRect) -> CGRect {
+        guard source.width > 0, source.height > 0, bounds.width > 0, bounds.height > 0 else {
+            return bounds
+        }
+
+        let scale = min(bounds.width / source.width, bounds.height / source.height)
+        let width = max(1, source.width * scale)
+        let height = max(1, source.height * scale)
+        return CGRect(
+            x: bounds.midX - width / 2,
+            y: bounds.midY - height / 2,
+            width: width,
+            height: height
+        )
     }
 }
