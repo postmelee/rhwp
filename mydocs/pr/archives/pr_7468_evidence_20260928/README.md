@@ -18,7 +18,7 @@
 | 두 서식 API → 빈 문단 뒤 C → 삭제 | Native/WASM 각 4상태 모두 live/reopen 1쪽 | [Native 좌표](edited/apply-char-format.json), [WASM 결과](edited/wasm-live.json) |
 | 최종 줄 bbox | Native/WASM 일치, 줄 겹침 없음 | [검사](edited/geometry-check.json). WASM JSON의 0.1px 반올림 정밀도에서 비교 |
 | 실제 저장 경계 앞뒤 편집 | 두 API × 문단 68/69에서 모두 64쪽·경계 vpos=0 유지 | [관측값](edited/stored-boundary.json), 아래 제한 참고 |
-| 편집 재현본의 독립 한컴 PDF | 미검증 | 변환 CLI `fetch failed`, 별도 연결 진단 `TimeoutError`: [기록](converter-transport.json) |
+| 편집 직후·삭제 후 독립 한컴 PDF | 충족 | 연결 설정 복구 후 2020 엔진 변환 성공. Native/WASM 총 4개 Sweep 모두 2px 관용 실루엣 100%, gate passed. [추가 증적](hancom/README.md) |
 
 ### 수정 전 실패 / 수정 후 통과
 
@@ -26,7 +26,7 @@
 
 같은 [공개 API probe](probe.rs)를 이 음성 대조 라이브러리에도 연결했습니다. `apply-char-format`은 수정 전 live/reopen **2/2쪽**, head **1/1쪽**입니다. C는 physical 2쪽 y=132.2667에서 1쪽 y=288.0으로, D는 2쪽 y=160에서 1쪽 y=315.7333으로 바뀝니다. 빈 문단 삭제 뒤에는 양쪽 모두 1쪽이지만 D의 y는 **458.6667 → 273.0667**입니다. 즉 페이지 수 검사만으로 삭제 후 과도한 간격은 검출하지 못합니다. [수정 전 좌표](before/apply-char-format-delete-empty.json)와 [head 좌표](edited/apply-char-format-delete-empty.json)를 보존했습니다.
 
-`setCharShapeId` 경로의 쪽 수는 수정 전에도 1쪽이므로 그 쪽 수만으로 결함 검출을 주장하지 않습니다. 이 경로의 D y는 330.6667 → 315.7333, 삭제 뒤 288 → 273.0667입니다. 독립 한컴 출력 없이 이 수치만으로 한컴 일치를 확정하지 않습니다.
+`setCharShapeId` 경로의 쪽 수는 수정 전에도 1쪽이므로 그 쪽 수만으로 결함 검출을 주장하지 않습니다. 이 경로의 D y는 330.6667 → 315.7333, 삭제 뒤 288 → 273.0667입니다. 이후 동일 HWP의 독립 한컴 PDF를 확보하여 편집 직후와 삭제 후의 최종 배치를 비교했습니다([추가 증적](hancom/README.md)). 두 API의 상태별 HWP 바이트가 동일함도 확인했습니다.
 
 ![수정 전 1쪽](edited/before-format-p1.png)
 ![수정 전 C/D가 이동한 2쪽](edited/before-format-p2.png)
@@ -72,7 +72,7 @@ venv/bin/python scripts/visual_sweep.py --file-target field01 samples/field-01.h
 
 ## 남은 검증과 판정
 
-**머지 보류 유지.** 위 직접 실행으로 이전 review의 로컬 실행 공백은 보완됐습니다. 현재 실행에서 새로운 PR 회귀를 확정하지 않았습니다. 다만 편집 재현 문서 자체의 독립 한컴 출력 비교는 아직 미검증입니다. 변환 서비스가 복구되거나 대응 기준 PDF가 확보되면 저장한 동일 재현 HWP를 기준으로 Native/fresh WASM Sweep을 추가해야 합니다.
+**영속 회귀 테스트 보완을 위해 머지 보류 유지.** 로컬 실행 및 편집 재현본의 독립 한컴 출력 비교는 완료했습니다. 편집 직후·빈 문단 삭제 후 모두 한컴 PDF와 Native/WASM이 1쪽이며, 4개 review/overlay를 직접 판독하고 위치·빈 줄 공간·뒤 문단의 비겹침을 확인했습니다. PDF 부족 및 변환 연결 실패는 더 이상 보류 사유가 아닙니다. 남은 요청은 아래 API 경계와 최종 좌표를 정식 회귀 테스트에 보존하는 것입니다.
 
 저장 경계 진단은 문단 68/69의 첫 글자에 같은 font size/shape ID를 적용해 해당 편집 경로를 실행한 것입니다. 임의 크기 변경·다중 줄 재조판 전체를 검증하지 않았습니다. 각 경우 문단68은 physical 2쪽 y=1020.3733, 문단69는 3쪽 y=75.6267, 문단70은 3쪽 y=129.6533입니다. 전체 tree 생성 중 원거리 문단610의 overflow 경고가 기록됐으며 동일 경고가 수정 전 probe에서도 관측되어 이 PR에서 새로 생긴 경고로 분류하지 않습니다. 원거리 35쪽의 시각 정합성은 검사하지 않았습니다.
 

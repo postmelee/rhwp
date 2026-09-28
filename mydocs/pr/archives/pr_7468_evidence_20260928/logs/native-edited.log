@@ -1,0 +1,22 @@
+== edited ==
++ output/pr-review/7468-validation/rhwp-head dump-note-shape /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/edited-head/apply-char-format.hwp
++ output/pr-review/7468-validation/rhwp-head export-svg /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/edited-head/apply-char-format.hwp --embed-fonts=full --font-path /Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install -o /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/native-edited/edited/svg
++ output/pr-review/7468-validation/rhwp-head export-render-tree /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/edited-head/apply-char-format.hwp -o /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/native-edited/edited/render_tree
+SVG export pages: 1
++ pdftoppm -f 1 -l 1 -r 96 -png /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/hancom-pdf/pr7468-apply-char-format-2020.pdf /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/native-edited/edited/pdf_png/pdf
++ pdftotext -bbox-layout /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/hancom-pdf/pr7468-apply-char-format-2020.pdf /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/native-edited/edited/pdf_bbox.html
+Selected pages: [1]
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1686: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  rhwp_mask.putdata([255 if is_content_pixel(pixel) else 0 for pixel in rhwp.getdata()])
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1687: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pdf_mask.putdata([255 if is_content_pixel(pixel) else 0 for pixel in pdf.getdata()])
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1699: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  rhwp_mask.getdata(),
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1700: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pdf_mask.getdata(),
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1701: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  rhwp_near.getdata(),
+/Users/melee/.codex/worktrees/pr7468-validation/rhwp/scripts/visual_sweep.py:1702: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pdf_near.getdata(),
+Raster PNG pages: rhwp=1, pdf=1
+summary: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/native-edited/summary.json

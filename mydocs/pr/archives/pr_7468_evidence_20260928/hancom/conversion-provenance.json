@@ -1,0 +1,36 @@
+{
+  "source_sha": "20b388d9c14f8342986fd4277817eb4e843a7822",
+  "connection_fix": {
+    "cause": "primary private-network address timed out; client 0.9.0 ignores SERVER_URLS alternatives",
+    "resolution": "set primary SERVER_URL to already configured responsive alternative; token unchanged; private backup retained",
+    "endpoints_and_tokens": "intentionally omitted"
+  },
+  "conversions": [
+    {
+      "job_id": "e205500b-db4e-419e-94b5-43b2aecc900a",
+      "engine": "2020",
+      "status": "succeeded",
+      "input_path": "../edited/apply-char-format.hwp",
+      "input_sha256": "fcaea705e2dfb4edd4a376b682a600f4bdac407ff366cc1ff089f5f50998908d",
+      "output": "pr7468-apply-char-format-2020.pdf",
+      "output_sha256": "ae146bad6e223db1805ca5af8d59ac45a6aaf9e43778a8827a89fda9e8eafd6c",
+      "output_bytes": 13196,
+      "server_reported_output_bytes": 13196,
+      "created_at": "2026-09-28T14:22:53.724Z",
+      "completed_at": "2026-09-28T14:23:07.911Z"
+    },
+    {
+      "job_id": "e1321f4e-54fd-4028-b667-a039857e9ce7",
+      "engine": "2020",
+      "status": "succeeded",
+      "input_path": "../edited/apply-char-format-delete-empty.hwp",
+      "input_sha256": "f8e63d871e07bf9cf845421b878de3b5df38e272647aafe2f1cce7cdcc229421",
+      "output": "pr7468-delete-empty-2020.pdf",
+      "output_sha256": "4c4795b2ab2531c0c59d57bbeaf3aceb598f11b8114acfe894270c42601bebd7",
+      "output_bytes": 13197,
+      "server_reported_output_bytes": 13197,
+      "created_at": "2026-09-28T14:25:30.316Z",
+      "completed_at": "2026-09-28T14:25:44.311Z"
+    }
+  ]
+}

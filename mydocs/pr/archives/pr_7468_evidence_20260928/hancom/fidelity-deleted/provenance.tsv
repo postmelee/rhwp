@@ -1,0 +1,3 @@
+role	path	grade
+source	/Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/edited-head/apply-char-format-delete-empty.hwp	원본 입력
+reference_pdf	/Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/hancom-pdf/pr7468-delete-empty-2020.pdf	Hancom MCP engine 2020

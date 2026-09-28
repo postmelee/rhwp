@@ -1,0 +1,20 @@
+기준 PDF: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/hancom-pdf/pr7468-delete-empty-2020.pdf
+등급: Hancom MCP engine 2020
+요청: 1쪽, 완료: 1쪽, 누락: 0쪽
+pixel report: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/report.tsv
+text report: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/text-report.tsv
+SVG glyph-risk candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/svg-glyph-risk-report.tsv
+text owner-shift candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/text-owner-shift-candidates.tsv
+text owner-sequence candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/text-owner-sequence-candidates.tsv
+page-boundary fidelity candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/page-boundary-fidelity-candidates.tsv
+visible text-excess candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/visible-text-excess-candidates.tsv
+page-count ledger: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/page-count-ledger.tsv
+layout ledger: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/layout-candidates.tsv
+table fragment candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/table-fragment-candidates.tsv
+table cell text-overlap candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/table-cell-text-overlap-candidates.tsv
+table cell text-boundary candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/table-cell-text-boundary-candidates.tsv
+SVG text-band clip candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/svg-text-band-clip-candidates.tsv
+SVG table-border clip candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/svg-table-border-clip-candidates.tsv
+SVG table-horizontal-border clip candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/svg-table-horizontal-border-clip-candidates.tsv
+float owner-shift candidates: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/float-owner-shift-candidates.tsv
+run state: /Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/fidelity-deleted/run-state.tsv

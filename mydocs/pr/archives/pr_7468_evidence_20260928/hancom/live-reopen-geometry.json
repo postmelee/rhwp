@@ -1,0 +1,26 @@
+[
+  {
+    "state": "edited",
+    "backend": "native",
+    "lines": 6,
+    "live_vs_reopened_bbox_delta_at_01px": 0.0
+  },
+  {
+    "state": "edited",
+    "backend": "wasm",
+    "lines": 6,
+    "live_vs_reopened_bbox_delta_at_01px": 0.0
+  },
+  {
+    "state": "deleted",
+    "backend": "native",
+    "lines": 5,
+    "live_vs_reopened_bbox_delta_at_01px": 0.0
+  },
+  {
+    "state": "deleted",
+    "backend": "wasm",
+    "lines": 5,
+    "live_vs_reopened_bbox_delta_at_01px": 0.0
+  }
+]
