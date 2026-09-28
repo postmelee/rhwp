@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "embedded_font_count": 2,
+  "scope": "embedded font Unicode cmap only; direct PNG inspection still required",
+  "pages": [
+    {
+      "svg": "/Users/melee/.codex/worktrees/pr7468-validation/rhwp/output/pr-review/7468-validation/wasm-field01/field01/svg/wasm_001.svg",
+      "fonts": [
+        {
+          "family": "함초롬돋움",
+          "sha256": "b05e5e2f646961c7bdcb9904a7b6d84d288d9c44c3955d60b254cc8ad2305a76",
+          "unicode_mapping_count": 57947,
+          "status": "passed"
+        },
+        {
+          "family": "함초롬돋움",
+          "sha256": "5b0b9fa5f3ba2f7b2e3576c6c2e2f2a7a92f68c98f8270e10791ceb363ce1e51",
+          "unicode_mapping_count": 59303,
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

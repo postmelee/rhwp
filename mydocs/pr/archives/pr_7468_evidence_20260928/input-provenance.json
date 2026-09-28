@@ -1,0 +1,26 @@
+[
+  {
+    "path": "saved/blank2010.hwp",
+    "bytes": 13824,
+    "sha256": "43f472751fafefb8c66b0f831660ebed51e443a46bebe44c75bba918154ce4c9",
+    "matches_committed_bytes": true
+  },
+  {
+    "path": "samples/field-01.hwp",
+    "bytes": 514560,
+    "sha256": "518cb939079e6e0640a5f813597f744e2528a17ca52ee418929f1c8f4b5380c0",
+    "matches_committed_bytes": true
+  },
+  {
+    "path": "samples/hwp3-sample16-hwp5.hwp",
+    "bytes": 3043328,
+    "sha256": "6a3cdf2c148bf39f40ab06e847767e7f722543fce59e6ee4328ef44b835f3f45",
+    "matches_committed_bytes": true
+  },
+  {
+    "path": "pdf/field-01-hwp-2020.pdf",
+    "bytes": 129044,
+    "sha256": "ec488080ac777c355444bf98e0d0fb34ef02600870313bcaa212aff4500d8d0b",
+    "matches_committed_bytes": true
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "apply-char-format",
+    "same_line_count": true,
+    "max_bbox_delta_after_native_round_to_wasm_01px": 0.0,
+    "no_line_overlap_at_serialized_precision": true,
+    "pages": 1,
+    "reopened_pages": 1
+  },
+  {
+    "name": "apply-char-format-delete-empty",
+    "same_line_count": true,
+    "max_bbox_delta_after_native_round_to_wasm_01px": 0.0,
+    "no_line_overlap_at_serialized_precision": true,
+    "pages": 1,
+    "reopened_pages": 1
+  },
+  {
+    "name": "set-shape-id",
+    "same_line_count": true,
+    "max_bbox_delta_after_native_round_to_wasm_01px": 0.0,
+    "no_line_overlap_at_serialized_precision": true,
+    "pages": 1,
+    "reopened_pages": 1
+  },
+  {
+    "name": "set-shape-id-delete-empty",
+    "same_line_count": true,
+    "max_bbox_delta_after_native_round_to_wasm_01px": 0.0,
+    "no_line_overlap_at_serialized_precision": true,
+    "pages": 1,
+    "reopened_pages": 1
+  }
+]

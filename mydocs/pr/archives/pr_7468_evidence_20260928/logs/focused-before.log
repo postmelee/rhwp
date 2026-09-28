@@ -1,0 +1,32 @@
+[RustTestSuite] char_shape_after_empty_keeps_page -> regression_suite_005::char_shape_after_empty_keeps_page
+[RustTestSuite] cargo nextest run --locked --test regression_suite_005 -E test(/(^|::)char_shape_after_empty_keeps_page::/) --cargo-profile release-test --target-dir /Users/melee/Documents/projects/forks/rhwp/target/pr-review
+   Compiling rhwp v0.8.6 (/Users/melee/.codex/worktrees/pr7468-validation/rhwp)
+    Finished `release-test` profile [optimized] target(s) in 2m 54s
+────────────
+ Nextest run ID e7f7e074-54bc-413d-906a-b63f00ffb780 with nextest profile: default
+    Starting 2 tests across 1 binary (209 tests skipped)
+        FAIL [   0.019s] (1/2) rhwp::regression_suite_005 char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page
+  stdout ───
+
+    running 1 test
+    test char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page ... FAILED
+
+    failures:
+
+    failures:
+        char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page
+
+    test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 210 filtered out; finished in 0.01s
+
+  stderr ───
+
+    thread 'char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page' (13106861) panicked at tests/generated/../cases/char_shape_after_empty_keeps_page.rs:26:5:
+    following paragraph starts before the empty paragraph ends
+    note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+  Cancelling due to test failure: 1 test still running
+        PASS [   0.152s] (2/2) rhwp::regression_suite_005 char_shape_after_empty_keeps_page::real_stored_zero_still_starts_a_page
+────────────
+     Summary [   0.155s] 2 tests run: 1 passed, 1 failed, 209 skipped
+        FAIL [   0.019s] (1/2) rhwp::regression_suite_005 char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page
+error: test run failed

@@ -1,0 +1,16 @@
+{
+  "production_source_sha": "3f1dbff08b9f4cfc2407fb903253594db9d449f6",
+  "tests_source_sha": "20b388d9c14f8342986fd4277817eb4e843a7822",
+  "overridden_files": [
+    "src/document_core/commands/formatting.rs",
+    "src/renderer/typeset.rs",
+    "src/renderer/typeset/section/stored_reset.rs"
+  ],
+  "focused_exit": 100,
+  "results": {
+    "char_size_after_empty_paragraph_stays_on_one_page": "FAIL: following paragraph starts before the empty paragraph ends",
+    "real_stored_zero_still_starts_a_page": "PASS"
+  },
+  "probe_before_sha256": "442b02d727ac6348357fed46328d318d22e8e8aed88d0e7ed3b9fd57e1ca7f6b",
+  "source_restored": true
+}

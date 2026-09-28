@@ -1,0 +1,14 @@
+before-format: live_pages=1 reopened_pages=1
+apply-char-format: live_pages=2 reopened_pages=2
+apply-char-format-delete-empty: live_pages=1 reopened_pages=1
+set-shape-id: live_pages=1 reopened_pages=1
+set-shape-id-delete-empty: live_pages=1 reopened_pages=1
+stored_boundary=Some(69)
+LAYOUT_OVERFLOW_DRAW: section=0 pi=610 line=0 y=1052.6 col_bottom=1046.9 overflow=5.8px
+LAYOUT_OVERFLOW: page=35, sec=0, col=0, para=610, type=FullParagraph, first=false, y=1052.6, bottom=1046.9, overflow=5.8px
+LAYOUT_OVERFLOW_DRAW: section=0 pi=610 line=0 y=1052.6 col_bottom=1046.9 overflow=5.8px
+LAYOUT_OVERFLOW: page=35, sec=0, col=0, para=610, type=FullParagraph, first=false, y=1052.6, bottom=1046.9, overflow=5.8px
+LAYOUT_OVERFLOW_DRAW: section=0 pi=610 line=0 y=1052.6 col_bottom=1046.9 overflow=5.8px
+LAYOUT_OVERFLOW: page=35, sec=0, col=0, para=610, type=FullParagraph, first=false, y=1052.6, bottom=1046.9, overflow=5.8px
+LAYOUT_OVERFLOW_DRAW: section=0 pi=610 line=0 y=1052.6 col_bottom=1046.9 overflow=5.8px
+LAYOUT_OVERFLOW: page=35, sec=0, col=0, para=610, type=FullParagraph, first=false, y=1052.6, bottom=1046.9, overflow=5.8px

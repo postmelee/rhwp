@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "key": "field01",
+  "provenance": {
+    "hwp": {
+      "path": "samples/field-01.hwp",
+      "sha256": "518cb939079e6e0640a5f813597f744e2528a17ca52ee418929f1c8f4b5380c0"
+    },
+    "pdf": {
+      "path": "pdf/field-01-hwp-2020.pdf",
+      "sha256": "ec488080ac777c355444bf98e0d0fb34ef02600870313bcaa212aff4500d8d0b"
+    },
+    "git_head": "20b388d9c14f8342986fd4277817eb4e843a7822",
+    "sweep_script": {
+      "path": "scripts/visual_sweep.py",
+      "sha256": "e67bf1ef9a9798e1f1ddaafcf38cb354668772b5ccf1c7b6c0e11e0ae1129d07"
+    },
+    "svg_rasterizer": "webfont",
+    "rhwp_binary": {
+      "configured": "/Users/melee/Documents/projects/forks/rhwp/target/pr-review/release-test/rhwp",
+      "path": "/Users/melee/Documents/projects/forks/rhwp/target/pr-review/release-test/rhwp",
+      "sha256": "313b94fe2faab0123705ac2fe73850b04456ff0fa347762d9c38c6001f5a027c"
+    },
+    "wasm": {
+      "files": [
+        {
+          "path": "/Users/melee/.codex/worktrees/pr7468-validation/rhwp/pkg/rhwp.js",
+          "sha256": "2b7e7bb01cbbff0cb0d3c9a3222c6cb187f9d9710045013bcfb077d7abef4133"
+        },
+        {
+          "path": "/Users/melee/.codex/worktrees/pr7468-validation/rhwp/pkg/rhwp_bg.wasm",
+          "sha256": "4349ade74cee4dff63fdd4528cdb09092470e98558f4baf053e0b12c087b02d3"
+        }
+      ],
+      "exporter_sha256": "5b51337e43cfb443c3151d2ab47ab8b09d94e6ca493b60eb565cd9d20be82588",
+      "font_policy": "same-input native --embed-fonts=full --font-path /Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install; font-face CSS only",
+      "render_tree": "WASM getPageRenderTree"
+    },
+    "font_supply": {
+      "mode": "full",
+      "source": "explicit",
+      "files": [
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANBatang.ttf",
+          "sha256": "c5d544769d832477d48b7318222b9c3c2eced25455f7ba9acb23060dcecac104"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANBatangB.ttf",
+          "sha256": "0d355f9766ffd1c7ec7648260611ddea9e12ea3c610423e552d52b921fc0f29f"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANBatangExt.ttf",
+          "sha256": "f88d957a26dd5a6360424e37b6d25b4192a83d922b7ac1fa9fb92d34e579afe4"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANDotum.ttf",
+          "sha256": "1d0437906d52e96af36943008f144ad74d6e994493df3a4210a9761e077ea898"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANDotumB.ttf",
+          "sha256": "5b0b9fa5f3ba2f7b2e3576c6c2e2f2a7a92f68c98f8270e10791ceb363ce1e51"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HANDotumExt.ttf",
+          "sha256": "a2828746031f9e725b667ab1e5c96b553b6b42d24d55669a4472605692f8807c"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HDotum.TTF",
+          "sha256": "b05e5e2f646961c7bdcb9904a7b6d84d288d9c44c3955d60b254cc8ad2305a76"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HYHWPEQ.TTF",
+          "sha256": "a3a3cd992a89ac38e7707b58143ebdb1da9511d3c462f019cda7f92c30467807"
+        },
+        {
+          "path": "/Applications/Hancom Office HWP Viewer.app/Contents/Resources/Hnc/Shared/TTF/Install/HancomEQN.ttf",
+          "sha256": "c249c422e4acbafe2757c0f4a5d714414f84305c728776d889224f6116186e35"
+        }
+      ]
+    }
+  },
+  "dpi": 96,
+  "pixel_diff_threshold": 32,
+  "font_mismatch_evidence": null,
+  "requested_pages": [
+    1
+  ],
+  "requested_page_shards": [
+    [
+      1
+    ]
+  ],
+  "run_state": "complete"
+}

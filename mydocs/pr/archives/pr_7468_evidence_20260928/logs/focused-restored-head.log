@@ -1,0 +1,11 @@
+[RustTestSuite] char_shape_after_empty_keeps_page -> regression_suite_005::char_shape_after_empty_keeps_page
+[RustTestSuite] cargo nextest run --locked --test regression_suite_005 -E test(/(^|::)char_shape_after_empty_keeps_page::/) --cargo-profile release-test --target-dir /Users/melee/Documents/projects/forks/rhwp/target/pr-review
+   Compiling rhwp v0.8.6 (/Users/melee/.codex/worktrees/pr7468-validation/rhwp)
+    Finished `release-test` profile [optimized] target(s) in 2m 26s
+────────────
+ Nextest run ID 9800c7e7-3b49-4cca-8ec1-060dfb4ce96b with nextest profile: default
+    Starting 2 tests across 1 binary (209 tests skipped)
+        PASS [   0.021s] (1/2) rhwp::regression_suite_005 char_shape_after_empty_keeps_page::char_size_after_empty_paragraph_stays_on_one_page
+        PASS [   0.155s] (2/2) rhwp::regression_suite_005 char_shape_after_empty_keeps_page::real_stored_zero_still_starts_a_page
+────────────
+     Summary [   0.157s] 2 tests run: 2 passed, 209 skipped

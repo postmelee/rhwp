@@ -1,0 +1,30 @@
+{
+  "source_sha": "20b388d9c14f8342986fd4277817eb4e843a7822",
+  "artifacts": [
+    {
+      "path": "pkg/rhwp.js",
+      "sha256": "2b7e7bb01cbbff0cb0d3c9a3222c6cb187f9d9710045013bcfb077d7abef4133",
+      "bytes": 453222
+    },
+    {
+      "path": "pkg/rhwp_bg.wasm",
+      "sha256": "4349ade74cee4dff63fdd4528cdb09092470e98558f4baf053e0b12c087b02d3",
+      "bytes": 13208745
+    },
+    {
+      "path": "rhwp-studio/public/rhwp.js",
+      "sha256": "2b7e7bb01cbbff0cb0d3c9a3222c6cb187f9d9710045013bcfb077d7abef4133",
+      "bytes": 453222
+    },
+    {
+      "path": "rhwp-studio/public/rhwp_bg.wasm",
+      "sha256": "4349ade74cee4dff63fdd4528cdb09092470e98558f4baf053e0b12c087b02d3",
+      "bytes": 13208745
+    },
+    {
+      "path": "/Users/melee/Documents/projects/forks/rhwp/target/pr-review/release-test/rhwp",
+      "sha256": "313b94fe2faab0123705ac2fe73850b04456ff0fa347762d9c38c6001f5a027c",
+      "bytes": 26812128
+    }
+  ]
+}
