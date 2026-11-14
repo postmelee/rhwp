@@ -1,0 +1,22 @@
+[INFO]: 🎯  Checking for the Wasm target...
+[INFO]: 🌀  Compiling to Wasm...
+   Compiling rhwp-codec-resource v0.1.0 (<checkout>/vendor/rhwp-codec-resource)
+   Compiling rhwp-jpeg-decoder v0.3.2-rhwp.1 (<checkout>/vendor/rhwp-jpeg-decoder)
+   Compiling rhwp-zune-jpeg v0.5.15-rhwp.1 (<checkout>/vendor/rhwp-zune-jpeg)
+   Compiling rhwp v0.9.0 (<checkout>)
+   Compiling rhwp-password-crypto v0.1.0 (<checkout>/crates/rhwp-password-crypto)
+   Compiling rhwp-ooxml-chart v0.1.0 (<checkout>/crates/rhwp-ooxml-chart)
+   Compiling rhwp-hayro-ccitt v0.3.0-rhwp.1 (<checkout>/vendor/rhwp-hayro-ccitt)
+   Compiling rhwp-hayro-jbig2 v0.3.0-rhwp.1 (<checkout>/vendor/rhwp-hayro-jbig2)
+   Compiling rhwp-hayro-jpeg2000 v0.4.0-rhwp.1 (<checkout>/vendor/rhwp-hayro-jpeg2000)
+   Compiling rhwp-qcms v0.3.0-rhwp.1 (<checkout>/vendor/rhwp-qcms)
+   Compiling rhwp-contracts v0.1.0 (<checkout>/crates/rhwp-contracts)
+   Compiling rhwp-pdf-import-backend v0.3.78-rhwp.1 (<checkout>/vendor/rhwp-pdf-import-backend)
+   Compiling rhwp-jpeg-encoder v0.7.1-rhwp.1 (<checkout>/vendor/rhwp-jpeg-encoder)
+    Finished `release` profile [optimized] target(s) in 11m 06s
+[INFO]: ⬇️  Installing wasm-bindgen...
+[WARN  wasm_pack::install] could not download pre-built `wasm-bindgen`: no prebuilt wasm-bindgen binaries are available for this platform: Unrecognized target!. Falling back to `cargo install`.
+[INFO]: Optimizing wasm binaries with `wasm-opt`...
+[INFO]: ✨   Done in 11m 53s
+[INFO]: 📦   Your wasm pkg is ready to publish at <checkout>/pkg.
+[WARN]: ⚠️   There's a newer version of wasm-pack available, the new version is: 0.15.1, you are using: 0.15.0. To update, navigate to: https://wasm-bindgen.github.io/wasm-pack/installer/

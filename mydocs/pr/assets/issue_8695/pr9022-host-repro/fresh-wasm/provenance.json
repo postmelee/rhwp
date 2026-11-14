@@ -1,0 +1,37 @@
+{
+  "sourceCommit": "4cf97fe5f40bde52b6e80dfc461b5111b51139b6",
+  "inputEvidenceCommit": "0f0ea7854dbf8a3fbb31e89951a4c5f8465f6621",
+  "inputSha256": {
+    "source.hwpx": "ba479c93996f696ee8a5540c37d3aa449e326c922b6d6b25e10b9c754627ed48",
+    "two-hosts.hwpx": "f9a54247bc0588c07b2fc4e03a48292c885568e93a5890743a15287267d25fbd",
+    "blank-second-host.hwpx": "8c53a7c32a0fe70b3215c5d5f1e69368e6db318d5e988602d66b84e8c5024c9d"
+  },
+  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)",
+  "wasmPack": "wasm-pack 0.15.0",
+  "node": "v24.15.0",
+  "compat": "2024",
+  "dpi": 96,
+  "profile": "print",
+  "renderer": "wasm-canvas2d",
+  "buildCommand": "CARGO_TARGET_DIR=<shared-review-target> CARGO_BUILD_JOBS=6 scripts/wasm-pack-locked.sh --target web --out-dir pkg",
+  "harnessCommit": "9e2794796787b46815462fcecd1536ab74ac8528",
+  "buildExit": 0,
+  "packageSha256": {
+    "rhwp.js": "4f330b7b5c39602792d72f68b8a5bb8f22e9ec3e6881b72d6d2aa5bfde596429",
+    "rhwp_bg.wasm": "ad2a7cd37de93a1c9fb887567f7a05f00b26febc94b3838d710e50e9c4e069dd"
+  },
+  "publicPackageIdentical": true,
+  "browser": "Chrome/157.0.8103.51",
+  "fontSupply": {
+    "sourceUrl": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/HANBatang.woff",
+    "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+    "suppliedSfntSha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+    "families": [
+      "HCR Batang",
+      "함초롬바탕"
+    ],
+    "conversion": "repository font_catalog WOFF to SFNT"
+  },
+  "buildElapsed": "11m 06s Cargo release plus wasm-opt/packaging",
+  "wasmOptCompleted": true
+}

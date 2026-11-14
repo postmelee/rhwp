@@ -1,0 +1,245 @@
+{
+  "pageCount": 1,
+  "layoutGeneration": "2024",
+  "comparisonProfile": "print",
+  "rasterBackend": "wasm-canvas2d",
+  "protocolTimeoutMs": 600000,
+  "pngBackground": "opaque-white-print-paper",
+  "captureCanvasPolicy": "fresh-per-page-after-font-and-image-preparation",
+  "fontEnvironment": {
+    "source": "preparedPrograms",
+    "environment": {
+      "id": "declared-program-6cc6b0d741fd55a9f448c17a0f84cfb50434229bd6a813858f6a639f874eca0f",
+      "substitutions": {
+        "함초롬바탕": "HCR Batang"
+      },
+      "selectedPrograms": {
+        "함초롬바탕": {
+          "query": "함초롬바탕",
+          "family": "HCR Batang",
+          "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+          "trueType": true,
+          "openTypeCff": false
+        }
+      },
+      "trueTypeFaces": [
+        "HCR Batang"
+      ],
+      "preserveSourceMetrics": true
+    },
+    "programs": [
+      {
+        "query": "함초롬바탕",
+        "family": "HCR Batang",
+        "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+        "trueType": true,
+        "openTypeCff": false
+      },
+      {
+        "query": "HCR Batang",
+        "family": "HCR Batang",
+        "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+        "trueType": true,
+        "openTypeCff": false
+      }
+    ],
+    "loaded": [
+      {
+        "family": "함초롬바탕",
+        "registeredFamily": "함초롬바탕",
+        "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+        "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+        "faceIndex": 0,
+        "weight": 400,
+        "style": "normal",
+        "repairs": [
+          "woff-to-sfnt"
+        ],
+        "sourceKind": "external"
+      },
+      {
+        "family": "HCR Batang",
+        "registeredFamily": "HCR Batang",
+        "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+        "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+        "faceIndex": 0,
+        "weight": 400,
+        "style": "normal",
+        "repairs": [
+          "woff-to-sfnt"
+        ],
+        "sourceKind": "external"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "pngSha256": "60afff8847730addaa1aededa9acdb6278e75560810b616e9c0fa022dcd1642d",
+      "width": 794,
+      "height": 1122,
+      "canvasContext": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      }
+    }
+  ],
+  "workers": [
+    {
+      "index": 0,
+      "pages": [
+        1
+      ],
+      "fonts": {
+        "requested": [
+          "함초롬바탕",
+          "hcr batang",
+          "rhwp old hangul"
+        ],
+        "loaded": [
+          {
+            "family": "RHWP Old Hangul",
+            "registeredFamily": "RHWP Old Hangul",
+            "sourceSha256": "0a32ff354d11c955f819d84d91e695927d41aca0fd74b4a286b6235345101af4",
+            "sha256": "0a32ff354d11c955f819d84d91e695927d41aca0fd74b4a286b6235345101af4",
+            "textProgramSha256": "0a32ff354d11c955f819d84d91e695927d41aca0fd74b4a286b6235345101af4",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [],
+            "sourceKind": "external"
+          },
+          {
+            "family": "HCR Batang",
+            "registeredFamily": "HCR Batang",
+            "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+            "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "textProgramSha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [
+              "woff-to-sfnt"
+            ],
+            "sourceKind": "external"
+          },
+          {
+            "family": "함초롬바탕",
+            "registeredFamily": "함초롬바탕",
+            "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+            "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "textProgramSha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [
+              "woff-to-sfnt"
+            ],
+            "sourceKind": "external"
+          },
+          {
+            "family": "함초롬바탕",
+            "registeredFamily": "__rhwp_ttf__함초롬바탕",
+            "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+            "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [
+              "woff-to-sfnt"
+            ],
+            "sourceKind": "external"
+          }
+        ]
+      },
+      "nativePuaFonts": [],
+      "hftOtfFonts": [],
+      "observedFonts": [],
+      "fontEnvironment": {
+        "source": "preparedPrograms",
+        "environment": {
+          "id": "declared-program-6cc6b0d741fd55a9f448c17a0f84cfb50434229bd6a813858f6a639f874eca0f",
+          "substitutions": {
+            "함초롬바탕": "HCR Batang"
+          },
+          "selectedPrograms": {
+            "함초롬바탕": {
+              "query": "함초롬바탕",
+              "family": "HCR Batang",
+              "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+              "trueType": true,
+              "openTypeCff": false
+            }
+          },
+          "trueTypeFaces": [
+            "HCR Batang"
+          ],
+          "preserveSourceMetrics": true
+        },
+        "programs": [
+          {
+            "query": "함초롬바탕",
+            "family": "HCR Batang",
+            "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "trueType": true,
+            "openTypeCff": false
+          },
+          {
+            "query": "HCR Batang",
+            "family": "HCR Batang",
+            "programId": "sweep-2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "trueType": true,
+            "openTypeCff": false
+          }
+        ],
+        "loaded": [
+          {
+            "family": "함초롬바탕",
+            "registeredFamily": "함초롬바탕",
+            "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+            "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [
+              "woff-to-sfnt"
+            ],
+            "sourceKind": "external"
+          },
+          {
+            "family": "HCR Batang",
+            "registeredFamily": "HCR Batang",
+            "sourceSha256": "b3192018e3bd4da76b29b0530f71c79fb6f465a2b7cd41308bc38f9a4ae09a6c",
+            "sha256": "2d9a6fc7545efc7eef039c1134ebead1c981bec47b5caafe3239e28b50de09ee",
+            "faceIndex": 0,
+            "weight": 400,
+            "style": "normal",
+            "repairs": [
+              "woff-to-sfnt"
+            ],
+            "sourceKind": "external"
+          }
+        ]
+      },
+      "screenCanvasMetricsActive": false,
+      "canvasMetricsActive": false,
+      "canvasContext": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "browser": "Chrome/157.0.8103.51"
+    }
+  ]
+}
