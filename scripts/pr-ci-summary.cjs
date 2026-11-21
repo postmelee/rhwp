@@ -10,7 +10,7 @@ function selectRuns(pull, runs) {
     name,
     run: selectLatestWorkflowRun(runs, {
       name, path, headSha: pull.head.sha, headBranch: pull.head.ref,
-      headRepository: pull.head.repo.full_name, pullNumber: pull.number, baseRef: pull.base.ref,
+      headRepository: pull.head.repo.full_name, pullNumber: pull.number, baseRef: pull.base.ref, baseSha: pull.base.sha,
     }),
   }));
 }
